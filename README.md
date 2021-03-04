@@ -55,7 +55,8 @@
 
 	Returns, if success:
 	* array (of all alloted tests)
-		* Sample: Array
+		* Sample: 
+		Array
 (
     [0] => Array
         (
@@ -137,7 +138,8 @@
 
 	Returns, if success:
 	* array (of questions and answers)
-		* Sample: Array
+		* Sample: 
+		Array
 (
     [0] => Array
         (
@@ -156,8 +158,7 @@
             [type] => textbox
         )
 	
-		* for Listening Test, sample array:
-		* Array
+		* for Listening Test, sample: Array
 (
     [0] => Array
         (
@@ -188,8 +189,7 @@
                                 )
                         )
 
-		* for Reading test, sample array:
-		* Array
+		* for Reading test, sample: Array
 (
     [0] => Array
         (
