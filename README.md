@@ -63,6 +63,7 @@
             [category] => Aptitude Test
             [icon] => //onlinetest.quodisys.com/images/aptitute.svg
             [topic] => Aptitude
+	    [status] => Done
             [maxquestions] => 0
             [totaltime] => 0
         )
@@ -76,12 +77,14 @@
                     [1] => Array
                         (
                             [topic] => Grammar
+			    [status] => 
                             [maxquestions] => 40
                             [totaltime] => 30
                         )
                     [2] => Array
                         (
                             [topic] => Speaking
+			    [status] => 
                             [maxquestions] => 15
                             [totaltime] => 10
                         )
@@ -94,6 +97,7 @@
             [category] => IQ Test
             [icon] => //onlinetest.quodisys.com/images/iq.svg
             [topic] => IQ
+	    [status] => Done
             [maxquestions] => 30
             [totaltime] => 45
         )
@@ -107,12 +111,14 @@
                     [4] => Array
                         (
                             [topic] => Frontend
+			    [status] => 
                             [maxquestions] => 15
                             [totaltime] => 30
                         )
                     [5] => Array
                         (
                             [topic] => Android
+			    [status] => 
                             [maxquestions] => 15
                             [totaltime] => 30
                         )
