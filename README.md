@@ -232,3 +232,119 @@ The efficacy of these efforts has lead to many CEOs searching for a compromise b
 
 	Retuns, If fail:
 	* error
+
+
+* **Save Results**
+
+	URL:
+	* https://onlinetest.elsaspeak.com/candidates/processtests.php
+
+	Parameters to Pass:
+	* token
+	* keyword
+	* sess (client token)
+	* topic
+	* qa (array of question id and selected/entered answer)
+		* like:
+		Array
+(
+    [0] => Array
+        (
+            [id] => 268
+            [answer] => C
+        )
+
+    [1] => Array
+        (
+            [id] => 272
+            [answer] => B
+        )
+
+    [2] => Array
+        (
+            [id] => 271
+            [answer] => A
+        )
+
+    [3] => Array
+        (
+            [id] => 277
+            [answer] => C
+        )
+
+    [4] => Array
+        (
+            [id] => 280
+            [answer] => D
+        )
+
+    [5] => Array
+        (
+            [id] => 275
+            [answer] => D
+        )
+
+    [6] => Array
+        (
+            [id] => 267
+            [answer] => A
+        )
+
+    [7] => Array
+        (
+            [id] => 276
+            [answer] => E
+        )
+
+    [8] => Array
+        (
+            [id] => 278
+            [answer] => C
+        )
+
+    [9] => Array
+        (
+            [id] => 274
+            [answer] => A
+        )
+
+    [10] => Array
+        (
+            [id] => 270
+            [answer] => B
+        )
+
+    [11] => Array
+        (
+            [id] => 273
+            [answer] => C
+        )
+
+    [12] => Array
+        (
+            [id] => 281
+            [answer] => D
+        )
+
+    [13] => Array
+        (
+            [id] => 269
+            [answer] => B,C,D
+        )
+
+    [14] => Array
+        (
+            [id] => 279
+            [answer] => C,D
+        )
+
+)
+
+	Method:
+	* POST
+
+	Returns, if success:
+	* msg (as "Success")
+
+	Retuns, If fail:
+	* error
